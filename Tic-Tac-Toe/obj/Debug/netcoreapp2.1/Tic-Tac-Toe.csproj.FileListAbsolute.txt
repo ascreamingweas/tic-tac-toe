@@ -1,0 +1,11 @@
+/Users/jlivingston/RiderProjects/Tic-Tac-Toe/Tic-Tac-Toe/bin/Debug/netcoreapp2.1/Tic-Tac-Toe.deps.json
+/Users/jlivingston/RiderProjects/Tic-Tac-Toe/Tic-Tac-Toe/bin/Debug/netcoreapp2.1/Tic-Tac-Toe.runtimeconfig.json
+/Users/jlivingston/RiderProjects/Tic-Tac-Toe/Tic-Tac-Toe/bin/Debug/netcoreapp2.1/Tic-Tac-Toe.runtimeconfig.dev.json
+/Users/jlivingston/RiderProjects/Tic-Tac-Toe/Tic-Tac-Toe/bin/Debug/netcoreapp2.1/Tic-Tac-Toe.dll
+/Users/jlivingston/RiderProjects/Tic-Tac-Toe/Tic-Tac-Toe/bin/Debug/netcoreapp2.1/Tic-Tac-Toe.pdb
+/Users/jlivingston/RiderProjects/Tic-Tac-Toe/Tic-Tac-Toe/obj/Debug/netcoreapp2.1/Tic-Tac-Toe.csprojAssemblyReference.cache
+/Users/jlivingston/RiderProjects/Tic-Tac-Toe/Tic-Tac-Toe/obj/Debug/netcoreapp2.1/Tic-Tac-Toe.csproj.CoreCompileInputs.cache
+/Users/jlivingston/RiderProjects/Tic-Tac-Toe/Tic-Tac-Toe/obj/Debug/netcoreapp2.1/Tic-Tac-Toe.AssemblyInfoInputs.cache
+/Users/jlivingston/RiderProjects/Tic-Tac-Toe/Tic-Tac-Toe/obj/Debug/netcoreapp2.1/Tic-Tac-Toe.AssemblyInfo.cs
+/Users/jlivingston/RiderProjects/Tic-Tac-Toe/Tic-Tac-Toe/obj/Debug/netcoreapp2.1/Tic-Tac-Toe.dll
+/Users/jlivingston/RiderProjects/Tic-Tac-Toe/Tic-Tac-Toe/obj/Debug/netcoreapp2.1/Tic-Tac-Toe.pdb
