@@ -15,12 +15,12 @@ namespace Tic_Tac_Toe
 
         static void SetDialogColor()
         {
-            Console.ForegroundColor = ConsoleColor.DarkBlue;
+            Console.ForegroundColor = ConsoleColor.Blue;
         }
 
         static void SetPromptColor()
         {
-            Console.ForegroundColor = ConsoleColor.DarkCyan;
+            Console.ForegroundColor = ConsoleColor.Cyan;
         }
 
         static void SetErrorColor()
@@ -30,11 +30,11 @@ namespace Tic_Tac_Toe
 
         static void SetSuccessColor()
         {
-            Console.ForegroundColor = ConsoleColor.DarkGreen;
+            Console.ForegroundColor = ConsoleColor.Green;
         }
                 
         static void Main(string[] args)
-        {            
+        {
             StartGame();
         }
 
@@ -60,6 +60,22 @@ namespace Tic_Tac_Toe
             // Push initial starting state record, m == numRows, assuming !_playerX for first state, 0 count
             _gameHistory.Push(new History(board, UpdateBoardDisplay(new BoardDisplay(_gameMetrics.GetM()), board), false, 0)); 
             RunGame();
+
+            SetPromptColor();
+            Console.WriteLine("Would you like to play again? y/n/ESC");
+            ConsoleKeyInfo answer = Console.ReadKey();
+
+            switch (answer.Key)
+            {
+                case ConsoleKey.Y:
+                    Console.WriteLine();
+                    StartGame();
+                    break;
+                case ConsoleKey.N:
+                case ConsoleKey.Escape:
+                default:
+                    break;
+            }
         }
         
         static void RunGame()
